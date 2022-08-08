@@ -1365,7 +1365,8 @@ margin-bottom: 30px;
 .call_now2 h3 {
 font-size: 30px;
 line-height: 40px;
-color: #fff;
+font-weight: 700;
+color: #000;
 padding-bottom: 33px;
      
  }
@@ -1373,7 +1374,7 @@ padding-bottom: 33px;
      font-size: 31px;
      line-height: 30px;
      font-weight: bold;
-     color: #000;
+     color: #fff;
 }
 
 .call_now {
