@@ -7,7 +7,6 @@
     .main-menu ul>li a {
         padding: 20px 20px 20px;
     }
-
     .header-search {
         padding: 15px 0px;
     }
@@ -62,7 +61,6 @@
         display: inline-block;
         margin: 0px 30px;
     }
-
     .wish-box {
         float: none;
         margin: 0px 30px;
@@ -85,7 +83,6 @@
         padding: 10px 20px;
         width: 94.8%;
     }
-
     .mean-container .mean-nav ul li li a {
         width: 92%;
         padding: 1em 4%;
@@ -136,29 +133,24 @@
         padding: 1em 4%;
         width: 92%;
     }
-
     .mean-container .mean-nav ul li li a {
         width: 90%;
         padding: 1em 5%;
     }
-
     .mean-container .sub-full.megamenu-categories ol li a {
         padding: 5px 0px;
         text-transform: capitalize;
         width: 100%;
     }
-
     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
         width: auto;
         border: none;
         float: none;
     }
-
     .menu-area-main {
         height: 290px;
         overflow-y: auto;
     }
-
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
@@ -168,7 +160,6 @@
     .banner-main .carousel-caption {
         background: transparent;
     }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

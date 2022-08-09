@@ -9,7 +9,6 @@
 .ui-helper-hidden {
 	display: none;
 }
-
 .ui-helper-hidden-accessible {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -20,7 +19,6 @@
 	position: absolute;
 	width: 1px;
 }
-
 .ui-helper-reset {
 	margin: 0;
 	padding: 0;
@@ -31,7 +29,6 @@
 	font-size: 100%;
 	list-style: none;
 }
-
 .ui-helper-clearfix:before,
 .ui-helper-clearfix:after {
 	content: "";
@@ -96,7 +93,6 @@
 	width: 100%;
 	height: 100%;
 }
-
 .ui-accordion .ui-accordion-header {
 	display: block;
 	cursor: pointer;
@@ -105,20 +101,17 @@
 	padding: .5em .5em .5em .7em;
 	font-size: 100%;
 }
-
 .ui-accordion .ui-accordion-content {
 	padding: 1em 2.2em;
 	border-top: 0;
 	overflow: auto;
 }
-
 .ui-autocomplete {
 	position: absolute;
 	top: 0;
 	left: 0;
 	cursor: default;
 }
-
 .ui-menu {
 	list-style: none;
 	padding: 0;
@@ -137,12 +130,10 @@
 	/* support: IE10, see #8844 */
 	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
 }
-
 .ui-menu .ui-menu-item-wrapper {
 	position: relative;
 	padding: 3px 1em 3px .4em;
 }
-
 .ui-menu .ui-menu-divider {
 	margin: 5px 0;
 	height: 0;
@@ -150,7 +141,6 @@
 	line-height: 0;
 	border-width: 1px 0 0 0;
 }
-
 .ui-menu .ui-state-focus,
 .ui-menu .ui-state-active {
 	margin: -1px;
@@ -160,7 +150,6 @@
 .ui-menu-icons {
 	position: relative;
 }
-
 .ui-menu-icons .ui-menu-item-wrapper {
 	padding-left: 2em;
 }
@@ -179,7 +168,6 @@
 	left: auto;
 	right: 0;
 }
-
 .ui-button {
 	padding: .4em 1em;
 	display: inline-block;
@@ -252,7 +240,6 @@ button.ui-button::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-
 .ui-controlgroup {
 	vertical-align: middle;
 	display: inline-block;
@@ -323,7 +310,6 @@ button.ui-button::-moz-focus-inner {
 	border-radius: .12em;
 	border: none;
 }
-
 .ui-checkboxradio-radio-label .ui-icon-background {
 	width: 16px;
 	height: 16px;
@@ -331,7 +317,6 @@ button.ui-button::-moz-focus-inner {
 	overflow: visible;
 	border: none;
 }
-
 .ui-checkboxradio-radio-label.ui-checkboxradio-checked .ui-icon,
 .ui-checkboxradio-radio-label.ui-checkboxradio-checked:hover .ui-icon {
 	background-image: none;
@@ -350,12 +335,10 @@ button.ui-button::-moz-focus-inner {
 	padding: .2em .2em 0;
 	display: none;
 }
-
 .ui-datepicker .ui-datepicker-header {
 	position: relative;
 	padding: .2em 0;
 }
-
 .ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
 	position: absolute;
@@ -363,7 +346,6 @@ button.ui-button::-moz-focus-inner {
 	width: 1.8em;
 	height: 1.8em;
 }
-
 .ui-datepicker .ui-datepicker-prev-hover,
 .ui-datepicker .ui-datepicker-next-hover {
 	top: 1px;
@@ -394,42 +376,35 @@ button.ui-button::-moz-focus-inner {
 	top: 50%;
 	margin-top: -8px;
 }
-
 .ui-datepicker .ui-datepicker-title {
 	margin: 0 2.3em;
 	line-height: 1.8em;
 	text-align: center;
 }
-
 .ui-datepicker .ui-datepicker-title select {
 	font-size: 1em;
 	margin: 1px 0;
 }
-
 .ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year {
 	width: 45%;
 }
-
 .ui-datepicker table {
 	width: 100%;
 	font-size: .9em;
 	border-collapse: collapse;
 	margin: 0 0 .4em;
 }
-
 .ui-datepicker th {
 	padding: .7em .3em;
 	text-align: center;
 	font-weight: bold;
 	border: 0;
 }
-
 .ui-datepicker td {
 	border: 0;
 	padding: 1px;
 }
-
 .ui-datepicker td span,
 .ui-datepicker td a {
 	display: block;
@@ -437,7 +412,6 @@ button.ui-button::-moz-focus-inner {
 	text-align: right;
 	text-decoration: none;
 }
-
 .ui-datepicker .ui-datepicker-buttonpane {
 	background-image: none;
 	margin: .7em 0 0 0;
@@ -446,7 +420,6 @@ button.ui-button::-moz-focus-inner {
 	border-right: 0;
 	border-bottom: 0;
 }
-
 .ui-datepicker .ui-datepicker-buttonpane button {
 	float: right;
 	margin: .5em .2em .4em;
@@ -455,7 +428,6 @@ button.ui-button::-moz-focus-inner {
 	width: auto;
 	overflow: visible;
 }
-
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
 	float: left;
 }
@@ -505,22 +477,18 @@ button.ui-button::-moz-focus-inner {
 .ui-datepicker-rtl {
 	direction: rtl;
 }
-
 .ui-datepicker-rtl .ui-datepicker-prev {
 	right: 2px;
 	left: auto;
 }
-
 .ui-datepicker-rtl .ui-datepicker-next {
 	left: 2px;
 	right: auto;
 }
-
 .ui-datepicker-rtl .ui-datepicker-prev:hover {
 	right: 1px;
 	left: auto;
 }
-
 .ui-datepicker-rtl .ui-datepicker-next:hover {
 	left: 1px;
 	right: auto;
@@ -538,7 +506,6 @@ button.ui-button::-moz-focus-inner {
 .ui-datepicker-rtl .ui-datepicker-group {
 	float: right;
 }
-
 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
 .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
 	border-right-width: 0;
@@ -554,7 +521,6 @@ button.ui-button::-moz-focus-inner {
 	left: .5em;
 	top: .3em;
 }
-
 .ui-dialog {
 	position: absolute;
 	top: 0;
@@ -562,12 +528,10 @@ button.ui-button::-moz-focus-inner {
 	padding: .2em;
 	outline: 0;
 }
-
 .ui-dialog .ui-dialog-titlebar {
 	padding: .4em 1em;
 	position: relative;
 }
-
 .ui-dialog .ui-dialog-title {
 	float: left;
 	margin: .1em 0;
@@ -576,7 +540,6 @@ button.ui-button::-moz-focus-inner {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-
 .ui-dialog .ui-dialog-titlebar-close {
 	position: absolute;
 	right: .3em;
@@ -586,7 +549,6 @@ button.ui-button::-moz-focus-inner {
 	padding: 1px;
 	height: 20px;
 }
-
 .ui-dialog .ui-dialog-content {
 	position: relative;
 	border: 0;
@@ -594,7 +556,6 @@ button.ui-button::-moz-focus-inner {
 	background: none;
 	overflow: auto;
 }
-
 .ui-dialog .ui-dialog-buttonpane {
 	text-align: left;
 	border-width: 1px 0 0 0;
@@ -611,27 +572,22 @@ button.ui-button::-moz-focus-inner {
 	margin: .5em .4em .5em 0;
 	cursor: pointer;
 }
-
 .ui-dialog .ui-resizable-n {
 	height: 2px;
 	top: 0;
 }
-
 .ui-dialog .ui-resizable-e {
 	width: 2px;
 	right: 0;
 }
-
 .ui-dialog .ui-resizable-s {
 	height: 2px;
 	bottom: 0;
 }
-
 .ui-dialog .ui-resizable-w {
 	width: 2px;
 	left: 0;
 }
-
 .ui-dialog .ui-resizable-se,
 .ui-dialog .ui-resizable-sw,
 .ui-dialog .ui-resizable-ne,
@@ -639,22 +595,18 @@ button.ui-button::-moz-focus-inner {
 	width: 7px;
 	height: 7px;
 }
-
 .ui-dialog .ui-resizable-se {
 	right: 0;
 	bottom: 0;
 }
-
 .ui-dialog .ui-resizable-sw {
 	left: 0;
 	bottom: 0;
 }
-
 .ui-dialog .ui-resizable-ne {
 	right: 0;
 	top: 0;
 }
-
 .ui-dialog .ui-resizable-nw {
 	left: 0;
 	top: 0;
@@ -680,12 +632,10 @@ button.ui-button::-moz-focus-inner {
 	-ms-touch-action: none;
 	touch-action: none;
 }
-
 .ui-resizable-disabled .ui-resizable-handle,
 .ui-resizable-autohide .ui-resizable-handle {
 	display: none;
 }
-
 .ui-resizable-n {
 	cursor: n-resize;
 	height: 7px;
@@ -693,7 +643,6 @@ button.ui-button::-moz-focus-inner {
 	top: -5px;
 	left: 0;
 }
-
 .ui-resizable-s {
 	cursor: s-resize;
 	height: 7px;
@@ -701,7 +650,6 @@ button.ui-button::-moz-focus-inner {
 	bottom: -5px;
 	left: 0;
 }
-
 .ui-resizable-e {
 	cursor: e-resize;
 	width: 7px;
@@ -709,7 +657,6 @@ button.ui-button::-moz-focus-inner {
 	top: 0;
 	height: 100%;
 }
-
 .ui-resizable-w {
 	cursor: w-resize;
 	width: 7px;
@@ -717,7 +664,6 @@ button.ui-button::-moz-focus-inner {
 	top: 0;
 	height: 100%;
 }
-
 .ui-resizable-se {
 	cursor: se-resize;
 	width: 12px;
@@ -725,7 +671,6 @@ button.ui-button::-moz-focus-inner {
 	right: 1px;
 	bottom: 1px;
 }
-
 .ui-resizable-sw {
 	cursor: sw-resize;
 	width: 9px;
@@ -733,7 +678,6 @@ button.ui-button::-moz-focus-inner {
 	left: -5px;
 	bottom: -5px;
 }
-
 .ui-resizable-nw {
 	cursor: nw-resize;
 	width: 9px;
@@ -741,7 +685,6 @@ button.ui-button::-moz-focus-inner {
 	left: -5px;
 	top: -5px;
 }
-
 .ui-resizable-ne {
 	cursor: ne-resize;
 	width: 9px;
@@ -749,13 +692,11 @@ button.ui-button::-moz-focus-inner {
 	right: -5px;
 	top: -5px;
 }
-
 .ui-progressbar {
 	height: 2em;
 	text-align: left;
 	overflow: hidden;
 }
-
 .ui-progressbar .ui-progressbar-value {
 	margin: -1px;
 	height: 100%;
@@ -777,13 +718,11 @@ button.ui-button::-moz-focus-inner {
 	-ms-touch-action: none;
 	touch-action: none;
 }
-
 .ui-selectable-helper {
 	position: absolute;
 	z-index: 100;
 	border: 1px dotted black;
 }
-
 .ui-selectmenu-menu {
 	padding: 0;
 	margin: 0;
@@ -792,13 +731,11 @@ button.ui-button::-moz-focus-inner {
 	left: 0;
 	display: none;
 }
-
 .ui-selectmenu-menu .ui-menu {
 	overflow: auto;
 	overflow-x: hidden;
 	padding-bottom: 1px;
 }
-
 .ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
 	font-size: 1em;
 	font-weight: bold;
@@ -819,23 +756,19 @@ button.ui-button::-moz-focus-inner {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-
 .ui-selectmenu-button.ui-button {
 	text-align: left;
 	white-space: nowrap;
 	width: 14em;
 }
-
 .ui-selectmenu-icon.ui-icon {
 	float: right;
 	margin-top: 0;
 }
-
 .ui-slider {
 	position: relative;
 	text-align: left;
 }
-
 .ui-slider .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
@@ -845,7 +778,6 @@ button.ui-button::-moz-focus-inner {
 	-ms-touch-action: none;
 	touch-action: none;
 }
-
 .ui-slider .ui-slider-range {
 	position: absolute;
 	z-index: 1;
@@ -864,12 +796,10 @@ button.ui-button::-moz-focus-inner {
 .ui-slider-horizontal {
 	height: .8em;
 }
-
 .ui-slider-horizontal .ui-slider-handle {
 	top: -.3em;
 	margin-left: -.6em;
 }
-
 .ui-slider-horizontal .ui-slider-range {
 	top: 0;
 	height: 100%;
@@ -887,13 +817,11 @@ button.ui-button::-moz-focus-inner {
 	width: .8em;
 	height: 100px;
 }
-
 .ui-slider-vertical .ui-slider-handle {
 	left: -.3em;
 	margin-left: 0;
 	margin-bottom: -.6em;
 }
-
 .ui-slider-vertical .ui-slider-range {
 	left: 0;
 	width: 100%;
@@ -911,7 +839,6 @@ button.ui-button::-moz-focus-inner {
 	-ms-touch-action: none;
 	touch-action: none;
 }
-
 .ui-spinner {
 	position: relative;
 	display: inline-block;
@@ -919,7 +846,6 @@ button.ui-button::-moz-focus-inner {
 	padding: 0;
 	vertical-align: middle;
 }
-
 .ui-spinner-input {
 	border: none;
 	background: none;
@@ -930,7 +856,6 @@ button.ui-button::-moz-focus-inner {
 	margin-left: .4em;
 	margin-right: 2em;
 }
-
 .ui-spinner-button {
 	width: 1.6em;
 	height: 50%;
@@ -944,7 +869,6 @@ button.ui-button::-moz-focus-inner {
 	overflow: hidden;
 	right: 0;
 }
-
 /* more specificity required here to override default borders */
 .ui-spinner a.ui-spinner-button {
 	border-top-style: none;
@@ -970,7 +894,6 @@ button.ui-button::-moz-focus-inner {
 	margin: 0;
 	padding: .2em .2em 0;
 }
-
 .ui-tabs .ui-tabs-nav li {
 	list-style: none;
 	float: left;
@@ -981,18 +904,15 @@ button.ui-button::-moz-focus-inner {
 	padding: 0;
 	white-space: nowrap;
 }
-
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
 	float: left;
 	padding: .5em 1em;
 	text-decoration: none;
 }
-
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
 	margin-bottom: -1px;
 	padding-bottom: 1px;
 }
-
 .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
 .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
@@ -1009,7 +929,6 @@ button.ui-button::-moz-focus-inner {
 	padding: 1em 1.4em;
 	background: none;
 }
-
 .ui-tooltip {
 	padding: 8px;
 	position: absolute;
@@ -1060,7 +979,6 @@ body .ui-tooltip {
 	color: #333333;
 	font-weight: bold;
 }
-
 .ui-widget-header a {
 	color: #333333;
 }
@@ -1081,7 +999,6 @@ html .ui-button.ui-state-disabled:active {
 	font-weight: normal;
 	color: #454545;
 }
-
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited,
@@ -1092,7 +1009,6 @@ a:visited.ui-button,
 	color: #454545;
 	text-decoration: none;
 }
-
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover,
@@ -1106,7 +1022,6 @@ a:visited.ui-button,
 	font-weight: normal;
 	color: #2b2b2b;
 }
-
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
@@ -1124,7 +1039,6 @@ a.ui-button:focus {
 .ui-visual-focus {
 	box-shadow: 0 0 3px 1px rgb(94, 158, 214);
 }
-
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
@@ -1136,13 +1050,11 @@ a.ui-button:active,
 	font-weight: normal;
 	color: #ffffff;
 }
-
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
 	border: #003eff;
 	background-color: #ffffff;
 }
-
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
@@ -1159,18 +1071,15 @@ a.ui-button:active,
 	background: #fffa90;
 	color: #777620;
 }
-
 .ui-state-checked {
 	border: 1px solid #dad55e;
 	background: #fffa90;
 }
-
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,
 .ui-widget-header .ui-state-highlight a {
 	color: #777620;
 }
-
 .ui-state-error,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
@@ -1178,25 +1087,21 @@ a.ui-button:active,
 	background: #fddfdf;
 	color: #5f3f3f;
 }
-
 .ui-state-error a,
 .ui-widget-content .ui-state-error a,
 .ui-widget-header .ui-state-error a {
 	color: #5f3f3f;
 }
-
 .ui-state-error-text,
 .ui-widget-content .ui-state-error-text,
 .ui-widget-header .ui-state-error-text {
 	color: #5f3f3f;
 }
-
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
 .ui-widget-header .ui-priority-primary {
 	font-weight: bold;
 }
-
 .ui-priority-secondary,
 .ui-widget-content .ui-priority-secondary,
 .ui-widget-header .ui-priority-secondary {
@@ -1228,7 +1133,6 @@ a.ui-button:active,
 	width: 16px;
 	height: 16px;
 }
-
 .ui-icon,
 .ui-widget-content .ui-icon {
 	background-image: url("images/ui-icons_444444_256x240.png");
@@ -1244,22 +1148,18 @@ a.ui-button:active,
 .ui-button:focus .ui-icon {
 	background-image: url("images/ui-icons_555555_256x240.png");
 }
-
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
 	background-image: url("images/ui-icons_ffffff_256x240.png");
 }
-
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
 	background-image: url("images/ui-icons_777620_256x240.png");
 }
-
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
 	background-image: url("images/ui-icons_cc0000_256x240.png");
 }
-
 .ui-button .ui-icon {
 	background-image: url("images/ui-icons_777777_256x240.png");
 }
@@ -1977,21 +1877,18 @@ a.ui-button:active,
 .ui-corner-tl {
 	border-top-left-radius: 3px;
 }
-
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
 	border-top-right-radius: 3px;
 }
-
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
 	border-bottom-left-radius: 3px;
 }
-
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
