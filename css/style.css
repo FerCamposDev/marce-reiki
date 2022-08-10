@@ -65,7 +65,6 @@ h1 {
 	font-size: 24px;
 	font-size: 80px;
 	margin-top: 130px;
-	text-shadow: 2px 2px 2px 2px #eef1f1;
 }
 
 h2 {
@@ -1351,6 +1350,7 @@ nav.main-menu {
 	line-height: 28px;
 	color: #595959;
 	padding-bottom: 50px;
+	text-align: justify;
 }
 
 .best_text a {
@@ -1368,7 +1368,7 @@ nav.main-menu {
 }
 
 .best_text a:hover {
-	background: #000;
+	background: #38c8a8;
 	color: #fff;
 }
 
@@ -1399,13 +1399,15 @@ nav.main-menu {
 }
 
 .best_img h4 {
-	color: #fff;
+	color:#fff;
+	text-shadow: 0px 4px 7px  #2d2e2e;
 	bottom: 74px;
 	display: inline-block;
 	position: absolute;
 	left: 0;
 	right: 0;
-	font-size: 20px;
+	font-weight: 500;
+	font-size: 30px;
 }
 
 .flot_left a {
@@ -1475,6 +1477,12 @@ nav.main-menu {
 	line-height: 28px;
 }
 
+.contact .back{
+	background-image: url(../images/cac.jpg) ;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 30px;
+}
 .contact .contact {
 	background: #fff;
 	width: 100%;
@@ -1535,12 +1543,15 @@ nav.main-menu {
 .rable-box {
 	margin: 0px;
 	height: 100%;
+	
 }
 
 
 .rable-box img {
 	height: 100%;
 	width: 100%;
+	border-radius: 5%;
+	filter: blur(6px);
 }
 
 /** end contact section **/
