@@ -65,7 +65,6 @@ h1 {
 	font-size: 24px;
 	font-size: 80px;
 	margin-top: 130px;
-	text-shadow: 2px 2px 2px 2px #eef1f1;
 }
 
 h2 {
@@ -1211,9 +1210,7 @@ nav.main-menu {
 	text-transform: uppercase;
 	color: #fff;
 	border-radius: 100%;
-
 }
-
 
 .logo img {
 	width: 110px;
@@ -1222,11 +1219,7 @@ nav.main-menu {
 	color: #fff;
 	border-radius: 100%;
 	box-shadow: 0px 5px 20px 8px #2d2e2e;
-
 }
-
-
-
 
 .d_flex {
 	display: flex;
@@ -1313,9 +1306,7 @@ nav.main-menu {
 
 /** about section **/
 .Best {
-
 	padding-top: 90px;
-
 }
 
 .Best .titlepage {
@@ -1351,6 +1342,7 @@ nav.main-menu {
 	line-height: 28px;
 	color: #595959;
 	padding-bottom: 50px;
+	text-align: justify;
 }
 
 .best_text a {
@@ -1368,7 +1360,7 @@ nav.main-menu {
 }
 
 .best_text a:hover {
-	background: #000;
+	background: #38c8a8;
 	color: #fff;
 }
 
@@ -1400,12 +1392,14 @@ nav.main-menu {
 
 .best_img h4 {
 	color: #fff;
+	text-shadow: 0px 4px 7px #2d2e2e;
 	bottom: 74px;
 	display: inline-block;
 	position: absolute;
 	left: 0;
 	right: 0;
-	font-size: 20px;
+	font-weight: 500;
+	font-size: 30px;
 }
 
 .flot_left a {
@@ -1431,7 +1425,6 @@ nav.main-menu {
 	margin-top: 80px;
 }
 
-
 .d_none {
 	position: inherit;
 }
@@ -1453,72 +1446,80 @@ nav.main-menu {
 
 /** contact section **/
 .contact {
-	padding-top: 90px;
+	margin-top: 60px;
+	background-image: url(../images/cac.jpg);
+	background-size: cover;
+	padding: 90px;
 }
 
 .titlepage {
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .titlepage h2 {
 	font-weight: bold;
-	color: #2d2e2e;
+	color: #050505;
 	line-height: 46px;
-	font-size: 40px;
-	padding-bottom: 20px;
+	font-size: 60px;
+	text-shadow: 0px 2px 15px #999;
 }
 
 .titlepage p {
-	color: #1d1d1d;
+	color: #050505;
 	font-size: 16px;
 	line-height: 28px;
 }
 
+.contact .back {
+	display: flex;
+	justify-content: center;
+}
+
 .contact .contact {
-	background: #fff;
+	background: rgba(0, 0, 0, 0.6);
 	width: 100%;
-	height: 100%;
 	padding: 36px;
-	border-radius: 30px;
-	border: #9cf6b8 solid 7px;
+	border-radius: 10px;
+	border: rgba(255, 255, 255, 0.74) solid 2px;
+	display: flex;
+	justify-content: center;
 }
 
 .contact .contact .contactus {
-	border: #000 solid 1px;
+	border: rgba(255, 255, 255, 0.74) solid 1px;
 	padding: 0px 0px 12px 0px;
 	margin-bottom: 30px;
 	border-radius: inherit;
-	color: #000;
+	color: #fff;
 	width: 100%;
 	border-top: inherit;
 	border-right: inherit;
 	border-left: inherit;
 	font-size: 17px;
 	line-height: 18px;
+	background-color: transparent;
 }
 
 .contact .contact .textarea {
 	margin-bottom: 25px;
 	padding: 15px 0px;
 	border: transparent;
-	color: #000 !important;
+	color: #fff !important;
 	width: 100%;
 	font-size: 17px;
 	line-height: 18px;
 	border-radius: inherit;
-	border: #000 solid 1px;
+	border: rgba(255, 255, 255, 0.74) solid 1px;
 	border-top: inherit;
-
 	border-right: inherit;
-
 	border-left: inherit;
+	background-color: transparent;
 }
 
 .contact .contact .send {
 	font-size: 16px;
-
-	background-color: #9cf6b8;
+	background-color: #84cf9c;
 	color: #fff;
 	padding: 10px 60px;
 	margin: 0 auto;
@@ -1527,8 +1528,7 @@ nav.main-menu {
 }
 
 .contact .contact .send:hover {
-	background-color: #84cf9c;
-	border: solid 0.2px rgb(206, 196, 196);
+	background-color: #67a179;
 	color: #fff;
 }
 
@@ -1537,10 +1537,11 @@ nav.main-menu {
 	height: 100%;
 }
 
-
 .rable-box img {
 	height: 100%;
 	width: 100%;
+	border-radius: 5%;
+	filter: blur(6px);
 }
 
 /** end contact section **/
@@ -1569,8 +1570,6 @@ nav.main-menu {
 	width: 20px;
 	height: 20px;
 }
-
-
 
 .img_box {
 	display: flex;
@@ -1603,7 +1602,6 @@ nav.main-menu {
 	background-repeat: no-repeat;
 	height: 146px;
 	top: 92px;
-
 }
 
 .joe {
@@ -1651,7 +1649,6 @@ nav.main-menu {
 	font-weight: 700;
 	color: #000;
 	padding-bottom: 33px;
-
 }
 
 .call_now2 span {
@@ -1672,7 +1669,6 @@ nav.main-menu {
 	font-weight: 700;
 	color: #000;
 	padding-bottom: 33px;
-
 }
 
 .call_now span {
@@ -1693,10 +1689,9 @@ nav.main-menu {
 
 .copyright p {
 	color: #000;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
-
 }
 
 .copyright a {
