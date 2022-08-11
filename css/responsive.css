@@ -1,3 +1,6 @@
+:root{
+	--verde-ppal: #baf5d6;
+}
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
@@ -162,6 +165,54 @@
 	.mean-container .mean-nav ul li a.mean-expand {
 		top: 0;
 	}
+
+	.mobile_revert {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.Best .titlepage h2::before {
+		background-color: #d5ffe9;
+	}
+
+	.Best .titlepage h2::after {
+		background-color: #d5ffe9;
+	}
+
+	.best_img figure img {
+		border: #d5ffe9 solid 31px;
+	}
+
+	.best_text a {
+		background: #baf5d6;
+		border: #d5ffe9 solid 3px;
+	}
+
+	.best_text a:hover {
+		background: #9cf6b8;
+		color: #fff;
+	}
+
+	.joe h3 {
+		color: #baf5d6;
+	}
+
+	.carousel-indicators .active {
+		background: #baf5d6;
+	}
+
+	.footer {
+		background: #d5ffe9;
+	}
+
+	.call_now h3 {
+		margin-top: 50px;
+	}
+
+	.copyright {
+		background-color: #d5ffe9;
+	}
+
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -336,10 +387,15 @@
 	}
 
 	.text-bg h1 {
-		padding-top: 80px;
-		font-size: 37px;
+		padding-top: 50px;
+		font-size: 55px;
 		line-height: 51px;
 		padding-bottom: 18px;
+		text-align: center;
+		text-shadow: 0px 0px 7px #fff;
+	}
+  .contact .titlepage h2{
+		font-size: 40px; 
 	}
 
 	.img_box::after {
