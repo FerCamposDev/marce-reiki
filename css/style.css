@@ -1462,8 +1462,12 @@ nav.main-menu {
 	color: #050505;
 	line-height: 46px;
 	font-size: 60px;
-	text-shadow: 0px 2px 15px #999;
 }
+
+.sombra {
+	text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
 
 .titlepage p {
 	color: #050505;
