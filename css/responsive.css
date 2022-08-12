@@ -183,6 +183,10 @@
 		border: #d5ffe9 solid 31px;
 	}
 
+	.best_img h4 {
+		font-size: 27px !important;
+	}
+
 	.best_text a {
 		background: #baf5d6;
 		border: #d5ffe9 solid 3px;
