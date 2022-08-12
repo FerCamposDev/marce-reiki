@@ -167,6 +167,13 @@ img {
 	padding: 0;
 }
 
+.captcha {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
 .form-control:focus {
 	border-color: #ffffff !important;
 	box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
@@ -1653,7 +1660,7 @@ nav.main-menu {
 	font-weight: 700;
 	color: #000;
 	padding-bottom: 33px;
-	
+
 }
 
 .call_now2 span {
@@ -1675,7 +1682,7 @@ nav.main-menu {
 	font-weight: 700;
 	color: #000;
 	padding-bottom: 33px;
-	
+
 }
 
 .call_now span {
