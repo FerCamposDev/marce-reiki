@@ -35,14 +35,11 @@ body {
 }
 
 .container-boton {
-	background-color: #2e6329;
-	border: 1px solid #fff;
 	position: fixed;
 	z-index: 999;
 	border-radius: 50%;
 	bottom: 20px;
 	right: 25px;
-	padding: 15px;
 	transition: ease 0.3s;
 	animation: efecto 1.2s infinite;
 }
@@ -53,7 +50,7 @@ body {
 }
 
 .boton {
-	width: 50px;
+	width: 65px;
 	transition: ease 1s;
 }
 
@@ -1687,21 +1684,12 @@ nav.main-menu {
 	padding-top: 90px;
 }
 
+
 .call_now2 h3 {
 	font-size: 31px;
 	line-height: 40px;
 	font-weight: 700;
 	color: #000;
-	padding-bottom: 33px;
-
-}
-
-.call_now2 span {
-	font-size: 31px;
-	line-height: 30px;
-	font-weight: bold;
-	color: rgb(255, 253, 253);
-	text-shadow: 0px 0px 5px #807c7c;
 }
 
 .call_now {
@@ -1725,6 +1713,24 @@ nav.main-menu {
 	color: rgb(255, 253, 253);
 	text-shadow: 0px 0px 5px #212121
 }
+
+.footer aside {
+	height: 50px;
+	padding-right: 80px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.footer aside img {
+	width: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
 
 .copyright {
 	background-color: #9cf6b8;

@@ -117,11 +117,7 @@
 	}
 
 	.boton {
-		width: 30px;
-	}
-
-	.container-boton {
-		padding: 6px;
+		width: 45px;
 	}
 
 	@keyframes efecto {
@@ -228,8 +224,19 @@
 		background: #d5ffe9;
 	}
 
+	.footer aside {
+		padding-right: 0px;
+	}
+
+	.call_now, .call_now2 {
+		text-align: center;
+	}
 	.call_now h3 {
 		margin-top: 50px;
+	}
+
+	.call_now2 h3 {
+		font-size: 25px;
 	}
 
 	.copyright {
