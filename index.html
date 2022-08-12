@@ -57,17 +57,17 @@
 						</div>
 						<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
 							<div class="menu-area">
-							<div class="limit-box">
-								<nav class="main-menu">
-									<ul class="menu-area-main">
-										<li class="active"> <a href="index.html">Inicio</a> </li>
-										<li> <a href="#reiki">Terapia Reiki</a> </li>
-										<li> <a href="#contact">Contacto</a> </li>
-										<li> <a href="#patients">Nuestros Pacientes</a> </li>
-									</ul>
-								</nav>
+								<div class="limit-box">
+									<nav class="main-menu">
+										<ul class="menu-area-main">
+											<li class="active"> <a href="index.html">Inicio</a> </li>
+											<li> <a href="#reiki">Terapia Reiki</a> </li>
+											<li> <a href="#contact">Contacto</a> </li>
+											<li> <a href="#patients">Nuestros Pacientes</a> </li>
+										</ul>
+									</nav>
+								</div>
 							</div>
-						</div>
 						</div>
 					</div>
 				</div>
@@ -198,18 +198,20 @@
 						<form name="contacto" method="post" netlify data-netlify-recaptcha="true">
 							<div class="row">
 								<div class="col-sm-12">
-									<input class="contactus" placeholder="Nombre" type="text" name="Nombre">
+									<input class="contactus" placeholder="Nombre" type="text" name="Nombre" required>
 								</div>
 								<div class="col-sm-12">
-									<input class="contactus" placeholder="Teléfono" type="text" name="Teléfono">
+									<input class="contactus" placeholder="Teléfono" type="text" name="Teléfono" required>
 								</div>
 								<div class="col-sm-12">
-									<input class="contactus" placeholder="Email" type="text" name="Email">
+									<input class="contactus" placeholder="Email" type="email" name="Email">
 								</div>
 								<div class="col-sm-12">
 									<textarea class="textarea" placeholder="Mensaje" type="text" name="Mensaje"></textarea>
 								</div>
-								<div data-netlify-recaptcha="true"></div>
+								<div class="captcha">
+									<div data-netlify-recaptcha="true"></div>
+								</div>
 								<div class="col-sm-12">
 									<button class="send">Enviar</button>
 								</div>
