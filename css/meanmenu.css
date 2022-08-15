@@ -135,8 +135,8 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {
-	background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
-	color: #ffffff;
+	/* background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0; */
+	color: #383838;
 }
 
 .mean-container .mean-push {
@@ -170,10 +170,14 @@ a.meanmenu-reveal {
 
 .mean-container .mean-nav ul li a.mean-expand:hover,
 .mean-container .mean-nav ul li a.mean-expand:focus {
-	background: #0f69c6;
-	color: #ffffff;
+	/* background: #0f69c6; */
+	color: #383838;
 }
 
 .mean-container .mean-nav ul li a:hover {
-	color: #f2740d;
+	color: #38c8a8;
+}
+
+.solo-mobile a {
+	padding-left: 40px !important;
 }

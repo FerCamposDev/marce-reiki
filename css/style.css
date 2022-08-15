@@ -181,6 +181,10 @@ img {
 	outline: 0;
 }
 
+.solo-mobile {
+	display: none;
+}
+
 .btn-custom {
 	margin-top: 20px;
 	background-color: transparent !important;
